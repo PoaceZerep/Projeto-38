@@ -1,0 +1,15 @@
+var clubeFutebol = {
+    nome: "Real Madrid",
+    fundacao: "6 de março de 1902",
+    qtdTorcedores: "450 milhões"
+  };
+  
+  var tv = ["LG","60 polegadas", "preta"];
+  
+  for (const x of tv) {
+    console.log(x);
+  }
+  
+  for (const y in clubeFutebol) {
+    console.log(clubeFutebol[y]);
+  }
